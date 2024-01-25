@@ -1,0 +1,10 @@
+For HapticPlugin.cs
+Added code below to lines 1395 - 1401
+
+    public void Reset_GrabObject()
+    {
+        if(!bIsGrabbing)
+        {
+            GrabObject = null;
+        }
+    }

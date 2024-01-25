@@ -1,0 +1,31 @@
+﻿<Properties StartupConfiguration="{1D8EF2DD-0827-9EC9-BDFF-FECA5B77C8E4}|">
+  <MonoDevelop.Ide.DebuggingService.PinnedWatches />
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
+  <MonoDevelop.Ide.DebuggingService.Breakpoints>
+    <BreakpointStore />
+  </MonoDevelop.Ide.DebuggingService.Breakpoints>
+  <MultiItemStartupConfigurations />
+  <MonoDevelop.Ide.Workbench ActiveDocument="Assets/scripts/CameraRotation.cs">
+    <Files>
+      <File FileName="Assets/scripts/BreakableJoints.cs" Line="1" Column="1" />
+      <File FileName="Assets/scripts/SpringToggle.cs" Line="51" Column="14" />
+      <File FileName="Assets/scripts/CavityManager.cs" Line="8" Column="47" />
+      <File FileName="Assets/scripts/Cavity.cs" Line="12" Column="28" />
+      <File FileName="Assets/scripts/CameraRotator.cs" Line="20" Column="1" />
+    </Files>
+    <Pads>
+      <Pad Id="ProjectPad">
+        <State name="__root__">
+          <Node name="DentistDemo Beta" expanded="True">
+            <Node name="Assets" expanded="True">
+              <Node name="scripts" expanded="True">
+                <Node name="CameraRotation.cs" selected="True" />
+              </Node>
+            </Node>
+          </Node>
+        </State>
+      </Pad>
+    </Pads>
+  </MonoDevelop.Ide.Workbench>
+  <MonoDevelop.Ide.ItemProperties.Assembly-CSharp PreferredExecutionTarget="e18841b3-44e8-4a61-a676-9822a364ecf8" />
+</Properties>
