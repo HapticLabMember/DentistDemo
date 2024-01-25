@@ -34,9 +34,7 @@ public class CavityManager : MonoBehaviour
                 Cavity newCavity = theCavity.GetComponent<Cavity>();
                 cavities.Add(newCavity);
             }
-            Debug.Log(cavityOnTeeth[i]);
         }
-        Debug.Log(cavityOnTeeth.Length);
     }
 
 
