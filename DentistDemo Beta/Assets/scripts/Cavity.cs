@@ -8,30 +8,37 @@ public class Cavity : MonoBehaviour
 {
     //make list of gameObjects so you can store different types of cavities
 
-    private GameObject tool;
+    private GameObject cavity;
     private Vector3 originalSize;
+    public GameObject tool;
 
     private void Awake()
     {
+        cavity = this.gameObject;
         originalSize = transform.localScale;
+        GameObject[] tools = GameObject.FindGameObjectsWithTag("Player");
+        if(tools.Length > 0)
+        {
+            tool = tools[0];
+        }
     }
 
-    /*
+    
     private void OnCollisionStay(Collision collision)
     {
-        if(collision.gameObject == tool)
+        if (collision.gameObject == tool)
         {
-            Vector3 originalSize = cavity.transform.localScale;
-            cavity.transform.localScale *= 0.95f;
+            cavity.transform.localScale *= 0.97f;
 
-            if (cavity.transform.localScale.magnitude < originalSize.magnitude * 0.3)
+            if (cavity.transform.localScale.magnitude < originalSize.magnitude * 3)
             {
                 Destroy(cavity);
             }
         }
     }
-    */
-
+    
+    
+    /*
     void Update()
     {
         if (Input.GetKeyDown(KeyCode.F))
@@ -47,5 +54,6 @@ public class Cavity : MonoBehaviour
         }
 
     }
+    */
 }
 
